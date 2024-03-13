@@ -14,11 +14,21 @@ nav{
     background-color: #1c1c1c;
    
 }
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 20px 0px !important;
+    }
+}
 .navbar-toggler{
     background-color: #fafafa;
 }
 .navbar-brand{
 color: #fafafa !important;
+}
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
 }
 .navbar-nav-css a{
 color: #fafafa !important;
@@ -30,7 +40,9 @@ color: #fafafa !important;
 .navbar-nav-css{
     color: #fafafa;
 }
-
+.btn-color{
+    background-color: #04AA6D;
+}
 .carousel-css{
     height: 100vh !important;
    
