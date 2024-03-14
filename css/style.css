@@ -59,6 +59,14 @@ color: #fafafa !important;
     color: #fafafa;
 
 }
+@media only screen and (max-width: 768px) {
+    .carousel-caption-css h2{
+        font-size: 15px;
+    }
+        .carousel-caption-css p {
+            font-size: 9px;
+        }
+}
 .carousel-caption-css button{
     background-color: #04AA6D;
 color: #fafafa;
