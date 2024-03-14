@@ -66,6 +66,11 @@ color: #fafafa !important;
         .carousel-caption-css p {
             font-size: 9px;
         }
+                 .carousel-caption-css button {
+                     font-size: 9px;
+                     padding: 0px;
+                     margin-top: 3px;
+                 }
 }
 .carousel-caption-css button{
     background-color: #04AA6D;
