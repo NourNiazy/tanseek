@@ -48,8 +48,10 @@ color: #fafafa !important;
    
 }
 .carousel-caption-css{
-   top:30%;
-   height: 200px;
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -66,10 +68,16 @@ color: #fafafa;
 
 }
 /* linear-gradient(rgba(42, 49, 42, 0.6), rgba(27, 202, 35, 0.6)), url(../img/serv1.jpg)*/
+
 .massage{
 background-color: #1c1c1c;
 padding: 50px 0px;
 height: 400px !important;
+}
+@media only screen and (max-width: 768px) {
+    .massage {
+        height: auto !important;
+    }
 }
 .carousel-caption-massage-css{
     padding: 50px 0px;
